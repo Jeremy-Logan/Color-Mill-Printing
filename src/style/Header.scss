@@ -1,10 +1,6 @@
 .Header {
-  background: #663399;
+  background: #432F51;
   color: white;
-  border-bottom: 3px solid white;
-  box-shadow: 0 16px 0 black;
-  transform: rotateZ(8deg) skew(-2deg, -10deg) translateY(-10%);
-  margin: 50px;
 }
 
 .Header__body {
@@ -15,11 +11,10 @@
 .Header__title {
   flex: 1;
   padding: 20px 0;
-  font-family: "times new roman", times, serif;
-  font-style: italic;
+  font-family: "nunito", sans-serif;
 
   a {
-    font-size: 6em;
+    font-size: 2em;
     font-weight: bold;
     position: relative;
     color: white;
@@ -67,24 +62,4 @@
 
 .Header__summary__line {
   font-size: 0.8em;
-}
-
-@keyframes noise-anim {
-  $steps: 20;
-
-  @for $i from 0 through $steps {
-    #{percentage($i * (1 / $steps))} {
-      clip:rect(random(100) + px, 9999px, random(100) + px, 0);
-    }
-  }
-}
-
-@keyframes noise-anim-2 {
-  $steps: 20;
-
-  @for $i from 0 through $steps{
-    #{percentage($i * (1/$steps))}{
-      clip:rect(random(100) + px, 9999px, random(100) + px, 0);
-    }
-  }
 }

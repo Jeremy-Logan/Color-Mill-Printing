@@ -7,7 +7,7 @@ import '../style/index.scss'
 
 const Layout = ({ children, site }) => (
   <div>
-    <Helmet title="Snipcart + DatoCMS + GatsbyJS Example" />
+    <Helmet title="The Color Mill Printing" />
     <div className="Container">
       <div className="Header">
         <div className="Wrap" >

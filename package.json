@@ -1,11 +1,14 @@
 {
-  "name": "datocms-snipcart-gatsby-example",
-  "description": "An example project to demonstrate how you can integrate Gatsby, Snipcart and DatoCMS",
+  "name": "The Color Mill Printing",
+  "description": "Buy printing convenient, high-quality printing online with The Color Mill",
   "version": "1.0.0",
-  "author": "Stefano Verna <s.verna@datocms.com>",
+  "author": "Color Mill Design",
   "dependencies": {
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/styles": "^4.9.10",
     "datocms-client": "^2.0.7",
     "gatsby": "^2.18.8",
+    "gatsby-cli": "^2.11.7",
     "gatsby-image": "^2.2.34",
     "gatsby-link": "^2.2.25",
     "gatsby-plugin-react-helmet": "^3.1.16",
@@ -13,13 +16,14 @@
     "gatsby-plugin-sharp": "^2.3.5",
     "gatsby-plugin-snipcart": "^1.1.2",
     "gatsby-source-datocms": "^2.1.20",
+    "material-ui": "^0.20.2",
     "node-sass": "^4.12.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-helmet": "^5.2.0"
   },
   "keywords": [
-    "gatsby"
+    "printing"
   ],
   "license": "MIT",
   "scripts": {
